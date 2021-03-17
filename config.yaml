@@ -17,7 +17,7 @@ menu:
     - identifier: about
       name: About
       title: About
-      url: /about
+      url: /about/
 
 params:
   author: 'Imam Hossain'

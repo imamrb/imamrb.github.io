@@ -1,0 +1,47 @@
+languageCode: 'en-us'
+baseUrl: ''
+title: 'Imam Hossain'
+theme: 'anubis'
+paginate: 10
+disqusShortname: imam07
+googleAnalytics: UA-123-45
+enableRobotsTXT: true
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      title: Archive
+      url: /posts/
+      weight: 0
+    - identifier: about
+      name: About
+      title: About
+      url: /about
+
+params:
+  author: 'Imam Hossain'
+  email: imam.swe@gmail.com # used for microformats
+  avatar: '/images/me.png' # used for microformats
+  description: ''
+  images:
+    - images/og-featured.png # relative path to "static" directory
+
+  dateFormat: "2006-01-02"
+  paginationSinglePost: true
+  style: "dark"
+  readMore: false
+  # utteranc.es support
+  utterancesRepo: '' # mandatory
+  utterancesTheme: '' # optional
+  utterancesIssue: '' # optional
+  utterancesLabel: '' # optional
+  webmentions:
+    url: https://yourdomain.com/webemntions/receive
+    login: hugo-theme-anubis
+    pingback: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable raw HTML in Markdown

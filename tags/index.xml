@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Imam Hossain</title><link>/tags/</link><description>Recent content in Tags on Imam Hossain</description><image><url>images/og-featured.png</url><link>images/og-featured.png</link></image><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Imam Hossain</title>
+    <link>santho07.github.io/tags/</link>
+    <description>Recent content in Tags on Imam Hossain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="santho07.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

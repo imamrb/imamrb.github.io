@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/posts/first-post-get-unique-timezone/</loc><lastmod>2021-03-18T01:13:03+06:00</lastmod></url><url><loc>/</loc><lastmod>2021-03-18T01:13:03+06:00</lastmod></url><url><loc>/posts/</loc><lastmod>2021-03-18T01:13:03+06:00</lastmod></url><url><loc>/about/</loc><priority>0</priority></url><url><loc>/categories/</loc></url><url><loc>/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>santho07.github.io/posts/first-post-get-unique-timezone/</loc>
+    <lastmod>2021-03-18T01:13:03+06:00</lastmod>
+  </url><url>
+    <loc>santho07.github.io/</loc>
+    <lastmod>2021-03-18T01:13:03+06:00</lastmod>
+  </url><url>
+    <loc>santho07.github.io/posts/</loc>
+    <lastmod>2021-03-18T01:13:03+06:00</lastmod>
+  </url><url>
+    <loc>santho07.github.io/about/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>santho07.github.io/categories/</loc>
+  </url><url>
+    <loc>santho07.github.io/tags/</loc>
+  </url>
+</urlset>

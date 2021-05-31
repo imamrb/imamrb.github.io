@@ -2,7 +2,5 @@
 ActiveSupport::TimeZone.all.map(&amp;amp;:name).map do |zone| Time.now.in_time_zone(zone).strftime(&amp;#39;%F %T %:z&amp;#39;) }.uniq end To get the full list of 150 timezones
 ActiveSupport::TimeZone.all.map(&amp;amp;:name).map do |zone| zone + &amp;#39; : &amp;#39; + Time.now.in_time_zone(zone).strftime(&amp;#39;%F %T %:z&amp;#39;) } end Thank you for reading!</description></item><item><title>Hi there 👋</title><link>https://santho07.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://santho07.github.io/about/</guid><description>Thanks for visiting my blog.
 I am a Software engineer from Bangladesh focused on Web and API development. I have mostly worked with Ruby On Rails, GraphQL, GrapeAPI and currently learning ReactJS.
-I am passionate about learning new things and love to share my knowledge.
-If you have any feedback or message for me, drop me an email.
-Email: imam.swe@gmail.com
-Hope you have a great day ❤</description></item></channel></rss>
+At present, I am employed at Welldev Bangladesh Ltd. I am passionate about learning new things and love to share my knowledge.
+If you have any feedback, message or want to collaborate with me, you can reach me by email or Linkedin.</description></item></channel></rss>

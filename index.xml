@@ -2,8 +2,7 @@
 With pry-rails included in the project Gemfile, it opens the pry prompt whenever we run rails console.
 [1] pry(main)&amp;gt; We can customize this default prompt to show useful information like the current project name &amp;amp; environment name. pry-rails gem provides a custom prompt for just that. Add the following line in your ~/.pryrc file to enable the rails prompt provided by pry-rails gem.</description></item><item><title>Hi there 👋</title><link>https://www.imamhossain.me/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.imamhossain.me/about/</guid><description>Thanks for visiting my blog.
 I am a Software Engineer from Bangladesh. Currently, using Ruby On Rails and ReactJS to build responsive, scalable web applications and APIs.
-Hiking, swimming, watching tv series and reading books are some of my favorite leisure activities.
-I enjoy learning new things and sharing my knowledge. Feel free to revisit for updates.
+I enjoy learning new things and sharing them with others.
 Connect with me
 Email: imam.swe@gmail.com
 Hope you have a great day ❤</description></item></channel></rss>

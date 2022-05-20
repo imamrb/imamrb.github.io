@@ -1,47 +1,81 @@
 languageCode: 'en-us'
-baseUrl: ''
-title: 'Imam Hossain'
-theme: 'anubis'
+baseUrl: 'https://imamrb.github.io'
+title: Imam's Blog 📝
+theme: 'PaperMod'
 paginate: 10
-disqusShortname: imam07
-googleAnalytics: UA-123-45
+
+googleAnalytics: G-5P3WLHZ6F7
 enableRobotsTXT: true
+disqusShortname: imam07
 
 menu:
   main:
-    - identifier: archive
-      name: Archive
-      title: Archive
+    - identifier: posts
+      name: Posts
+      title: Posts
       url: /posts/
-      weight: 0
+      weight: 1
     - identifier: about
       name: About
       title: About
       url: /about/
 
 params:
-  author: 'Imam Hossain'
-  email: imam.swe@gmail.com # used for microformats
-  avatar: '/images/me.png' # used for microformats
-  description: ''
-  images:
-    - images/og-featured.png # relative path to "static" directory
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Imam's Blog 📝
+  description: 'Imam Hossain Blog'
+  keywords: [Blog, Portfolio, Imam]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: 'Jan 01, 2006'
+  defaultTheme: auto # dark, light
+  comments: true
 
-  dateFormat: "2006-01-02"
-  paginationSinglePost: true
-  style: "dark"
-  readMore: false
-  # utteranc.es support
-  utterancesRepo: '' # mandatory
-  utterancesTheme: '' # optional
-  utterancesIssue: '' # optional
-  utterancesLabel: '' # optional
-  webmentions:
-    url: https://yourdomain.com/webemntions/receive
-    login: hugo-theme-anubis
-    pingback: true
-
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShareButtons: ["twitter", "linkedin", "facebook", "reddit"]
+  ShowPostNavLinks: true
+  # ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  # profileMode:
+  #   enabled: false
+  #   title: 'Imam Hossain' # optional default will be site title
+  #   subtitle: >
+  #     Software Engineer, Welldev Bangladesh Ltd. <br>
+  #   imageUrl: 'https://media-exp1.licdn.com/dms/image/C5603AQHk61ii7ThbDQ/profile-displayphoto-shrink_800_800/0/1589738957963?e=1627516800&v=beta&t=03LGjNw6GC6WKtdsLEvXLTVcy9Y0bCKTPxVj95I76Rw' # optional
+  #   imageTitle: 'Imam.jpg' # optional
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+  #   buttons:
+  #     - name: Posts
+  #       url: '/posts'
+  #     - name: About
+  #       url: '/about'
+  homeInfoParams:
+      enabled: true
+      Title: Imam Hossain
+      Content: >
+          Software Engineer | Ruby On Rails | React | Bangladesh
+  socialIcons: # optional
+    - name: 'Stackoverflow'
+      url: 'https://stackoverflow.com/users/14529242/imam'
+    - name: 'Linkedin'
+      url: 'https://www.linkedin.com/in/imam07/'
+    - name: 'Github'
+      url: 'https://www.github.com/imamrb/'
+  assets:
+    disableHLJS: true
 markup:
   goldmark:
     renderer:
       unsafe: true # enable raw HTML in Markdown
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    # noClasses: false
+    # style: solarized-dark256
+    pygmentsUseClasses: true
+    pygmentsCodeFences: true

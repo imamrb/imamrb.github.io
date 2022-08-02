@@ -4,22 +4,20 @@ date: 2022-08-03T00:48:03+06:00
 draft: true
 ---
 
-Recently, I learned about these two methods in Ruby and love using them.
-
-Lets see how to use them.
+Recently, I learned about these two methods in Ruby and love using them. In this post, we will see how to use them with examples.
 
 ## tap
 
 `tap` method helps to perform certain operations while still returning the old object.
 
-```
+```ruby
 ['hello', 'world].join(' ').tap { |message| message.upcase }
 
 # "hello world"
 ```
 As we can see, tap doesn't return its result. Instead the object it was called on was returned. This is useful for logging.
 
-```
+```ruby
 def delete(user)
   user
     .update(deactivated: true)
@@ -31,7 +29,7 @@ end
 
 `then` passes the object to the block and return the result from the block
 
-```
+```ruby
 ['hello', 'world].join(' ').then { |message| message.upcase }
 
 # "HELLO WORLD"

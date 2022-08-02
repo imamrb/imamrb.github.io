@@ -1,43 +1,33 @@
 ---
 title: "Ruby Methods: #tap and #then"
 date: 2022-08-03T00:48:03+06:00
-draft: true
+draft: false
 ---
 
-Recently, I learned about these two methods in Ruby and love using them. In this post, we will see how to use them with examples.
+Recently, I have learned about these two methods in Ruby and find them quite useful. In this post, we will see how to use them with examples.
 
 ## tap
 
 `tap` method helps to perform certain operations while still returning the old object.
 
 ```ruby
-['hello', 'world].join(' ').tap { |message| message.upcase }
+['hello', 'world'].join(' ').tap { |message| message.upcase }
 
 # "hello world"
 ```
 As we can see, tap doesn't return its result. Instead the object it was called on was returned. This is useful for logging.
-
-```ruby
-def delete(user)
-  user
-    .update(deactivated: true)
-    .tap { |user| Rails.logger.info "User with id##{user.id} is deactivated" }
-end
-```
 
 ## then
 
 `then` passes the object to the block and return the result from the block
 
 ```ruby
-['hello', 'world].join(' ').then { |message| message.upcase }
+['hello', 'world'].join(' ').then { |message| message.upcase }
 
 # "HELLO WORLD"
 ```
 
-`then` returns the result form the block.
-
-## `#tap` helps to perform Actions
+## `tap` method helps to perform actions
 
 tap helps to perform actions on the object and remove intermediate variables.
 
@@ -68,7 +58,7 @@ order.status_delivered? # true
 ```
 Without using the tap method we would need to user intermediate variables and return the updated order at the end.
 
-## `#then` helps in Transformation
+## `then` method helps in transformation
 
 Since then returns the result from the block, we can use it to do subsequent operations on the object.
 
